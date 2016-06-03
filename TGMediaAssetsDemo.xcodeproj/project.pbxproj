@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420601ECF1D25B68D0119AC2 /* libPods-TGMediaAssetsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A8B555D4E25862CEED0481 /* libPods-TGMediaAssetsDemo.a */; };
+		4930B9111D011DF600A29516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930B9101D011DF600A29516 /* main.m */; };
+		4930B9141D011DF600A29516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930B9131D011DF600A29516 /* AppDelegate.m */; };
+		4930B9171D011DF600A29516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930B9161D011DF600A29516 /* ViewController.m */; };
+		4930B91A1D011DF600A29516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4930B9181D011DF600A29516 /* Main.storyboard */; };
+		4930B91C1D011DF600A29516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4930B91B1D011DF600A29516 /* Assets.xcassets */; };
+		4930B91F1D011DF600A29516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4930B91D1D011DF600A29516 /* LaunchScreen.storyboard */; };
+		4930BA291D0162F700A29516 /* TGImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA071D0162F700A29516 /* TGImageUtils.mm */; };
+		4930BA2A1D0162F700A29516 /* TGMediaAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA091D0162F700A29516 /* TGMediaAsset.m */; };
+		4930BA2B1D0162F700A29516 /* TGMediaAssetFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA0B1D0162F700A29516 /* TGMediaAssetFetchResult.m */; };
+		4930BA2C1D0162F700A29516 /* TGMediaAssetFetchResultChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA0D1D0162F700A29516 /* TGMediaAssetFetchResultChange.m */; };
+		4930BA2D1D0162F700A29516 /* TGMediaAssetGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA0F1D0162F700A29516 /* TGMediaAssetGroup.m */; };
+		4930BA2E1D0162F700A29516 /* TGMediaAssetImageSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA111D0162F700A29516 /* TGMediaAssetImageSignals.m */; };
+		4930BA2F1D0162F700A29516 /* TGMediaAssetLegacyImageSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA131D0162F700A29516 /* TGMediaAssetLegacyImageSignals.m */; };
+		4930BA301D0162F700A29516 /* TGMediaAssetModernImageSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA151D0162F700A29516 /* TGMediaAssetModernImageSignals.m */; };
+		4930BA311D0162F700A29516 /* TGMediaAssetsLegacyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA191D0162F700A29516 /* TGMediaAssetsLegacyLibrary.m */; };
+		4930BA321D0162F700A29516 /* TGMediaAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA1B1D0162F700A29516 /* TGMediaAssetsLibrary.m */; };
+		4930BA331D0162F700A29516 /* TGMediaAssetsModernLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA1D1D0162F700A29516 /* TGMediaAssetsModernLibrary.m */; };
+		4930BA341D0162F700A29516 /* TGMediaSelectionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA1F1D0162F700A29516 /* TGMediaSelectionContext.m */; };
+		4930BA351D0162F700A29516 /* TGObserverProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA211D0162F700A29516 /* TGObserverProxy.m */; };
+		4930BA361D0162F700A29516 /* TGPhotoEditorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA231D0162F700A29516 /* TGPhotoEditorUtils.m */; };
+		4930BA371D0162F700A29516 /* TGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA251D0162F700A29516 /* TGTimer.m */; };
+		4930BA381D0162F700A29516 /* UIImage+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BA271D0162F700A29516 /* UIImage+TG.m */; };
+		4930BA3B1D01632000A29516 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4930BA391D01632000A29516 /* Info.plist */; };
+		4930BA3C1D01632000A29516 /* TGMediaAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4930BA3A1D01632000A29516 /* TGMediaAssets.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A8B555D4E25862CEED0481 /* libPods-TGMediaAssetsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TGMediaAssetsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44135693DCABA8CA6F846056 /* Pods-TGMediaAssetsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMediaAssetsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGMediaAssetsDemo/Pods-TGMediaAssetsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4930B90C1D011DF600A29516 /* TGMediaAssetsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGMediaAssetsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930B9101D011DF600A29516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4930B9121D011DF600A29516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4930B9131D011DF600A29516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4930B9151D011DF600A29516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4930B9161D011DF600A29516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4930B9191D011DF600A29516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4930B91B1D011DF600A29516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4930B91E1D011DF600A29516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4930B9201D011DF600A29516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4930B95E1D01205600A29516 /* TGMediaAssets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGMediaAssets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930BA061D0162F700A29516 /* TGImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImageUtils.h; sourceTree = "<group>"; };
+		4930BA071D0162F700A29516 /* TGImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGImageUtils.mm; sourceTree = "<group>"; };
+		4930BA081D0162F700A29516 /* TGMediaAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAsset.h; sourceTree = "<group>"; };
+		4930BA091D0162F700A29516 /* TGMediaAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAsset.m; sourceTree = "<group>"; };
+		4930BA0A1D0162F700A29516 /* TGMediaAssetFetchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetFetchResult.h; sourceTree = "<group>"; };
+		4930BA0B1D0162F700A29516 /* TGMediaAssetFetchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetFetchResult.m; sourceTree = "<group>"; };
+		4930BA0C1D0162F700A29516 /* TGMediaAssetFetchResultChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetFetchResultChange.h; sourceTree = "<group>"; };
+		4930BA0D1D0162F700A29516 /* TGMediaAssetFetchResultChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetFetchResultChange.m; sourceTree = "<group>"; };
+		4930BA0E1D0162F700A29516 /* TGMediaAssetGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetGroup.h; sourceTree = "<group>"; };
+		4930BA0F1D0162F700A29516 /* TGMediaAssetGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetGroup.m; sourceTree = "<group>"; };
+		4930BA101D0162F700A29516 /* TGMediaAssetImageSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetImageSignals.h; sourceTree = "<group>"; };
+		4930BA111D0162F700A29516 /* TGMediaAssetImageSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetImageSignals.m; sourceTree = "<group>"; };
+		4930BA121D0162F700A29516 /* TGMediaAssetLegacyImageSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetLegacyImageSignals.h; sourceTree = "<group>"; };
+		4930BA131D0162F700A29516 /* TGMediaAssetLegacyImageSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetLegacyImageSignals.m; sourceTree = "<group>"; };
+		4930BA141D0162F700A29516 /* TGMediaAssetModernImageSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetModernImageSignals.h; sourceTree = "<group>"; };
+		4930BA151D0162F700A29516 /* TGMediaAssetModernImageSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetModernImageSignals.m; sourceTree = "<group>"; };
+		4930BA161D0162F700A29516 /* TGMediaAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssets.h; sourceTree = "<group>"; };
+		4930BA171D0162F700A29516 /* TGMediaAssetsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetsCommon.h; sourceTree = "<group>"; };
+		4930BA181D0162F700A29516 /* TGMediaAssetsLegacyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetsLegacyLibrary.h; sourceTree = "<group>"; };
+		4930BA191D0162F700A29516 /* TGMediaAssetsLegacyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetsLegacyLibrary.m; sourceTree = "<group>"; };
+		4930BA1A1D0162F700A29516 /* TGMediaAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetsLibrary.h; sourceTree = "<group>"; };
+		4930BA1B1D0162F700A29516 /* TGMediaAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetsLibrary.m; sourceTree = "<group>"; };
+		4930BA1C1D0162F700A29516 /* TGMediaAssetsModernLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAssetsModernLibrary.h; sourceTree = "<group>"; };
+		4930BA1D1D0162F700A29516 /* TGMediaAssetsModernLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAssetsModernLibrary.m; sourceTree = "<group>"; };
+		4930BA1E1D0162F700A29516 /* TGMediaSelectionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaSelectionContext.h; sourceTree = "<group>"; };
+		4930BA1F1D0162F700A29516 /* TGMediaSelectionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaSelectionContext.m; sourceTree = "<group>"; };
+		4930BA201D0162F700A29516 /* TGObserverProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGObserverProxy.h; sourceTree = "<group>"; };
+		4930BA211D0162F700A29516 /* TGObserverProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGObserverProxy.m; sourceTree = "<group>"; };
+		4930BA221D0162F700A29516 /* TGPhotoEditorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoEditorUtils.h; sourceTree = "<group>"; };
+		4930BA231D0162F700A29516 /* TGPhotoEditorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoEditorUtils.m; sourceTree = "<group>"; };
+		4930BA241D0162F700A29516 /* TGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTimer.h; sourceTree = "<group>"; };
+		4930BA251D0162F700A29516 /* TGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTimer.m; sourceTree = "<group>"; };
+		4930BA261D0162F700A29516 /* UIImage+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TG.h"; sourceTree = "<group>"; };
+		4930BA271D0162F700A29516 /* UIImage+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TG.m"; sourceTree = "<group>"; };
+		4930BA391D01632000A29516 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TGMediaAssetsDemo/TGMediaAssets/Info.plist; sourceTree = SOURCE_ROOT; };
+		4930BA3A1D01632000A29516 /* TGMediaAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGMediaAssets.h; path = TGMediaAssetsDemo/TGMediaAssets/TGMediaAssets.h; sourceTree = SOURCE_ROOT; };
+		A8E946BAEF1B7C87D5888525 /* Pods-TGMediaAssetsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMediaAssetsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGMediaAssetsDemo/Pods-TGMediaAssetsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4930B9091D011DF600A29516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420601ECF1D25B68D0119AC2 /* libPods-TGMediaAssetsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930B95A1D01205600A29516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4930B9031D011DF600A29516 = {
+			isa = PBXGroup;
+			children = (
+				4930B90E1D011DF600A29516 /* TGMediaAssetsDemo */,
+				4930B95F1D01205600A29516 /* TGMediaAssets */,
+				4930B90D1D011DF600A29516 /* Products */,
+				EBFC3ED9466D7FD6E1C04A4B /* Pods */,
+				D2D5CDB6B2A12285ABBADC5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4930B90D1D011DF600A29516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4930B90C1D011DF600A29516 /* TGMediaAssetsDemo.app */,
+				4930B95E1D01205600A29516 /* TGMediaAssets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4930B90E1D011DF600A29516 /* TGMediaAssetsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4930BA041D0162F700A29516 /* TGMediaAssets */,
+				4930B9121D011DF600A29516 /* AppDelegate.h */,
+				4930B9131D011DF600A29516 /* AppDelegate.m */,
+				4930B9151D011DF600A29516 /* ViewController.h */,
+				4930B9161D011DF600A29516 /* ViewController.m */,
+				4930B9181D011DF600A29516 /* Main.storyboard */,
+				4930B91B1D011DF600A29516 /* Assets.xcassets */,
+				4930B91D1D011DF600A29516 /* LaunchScreen.storyboard */,
+				4930B9201D011DF600A29516 /* Info.plist */,
+				4930B90F1D011DF600A29516 /* Supporting Files */,
+			);
+			path = TGMediaAssetsDemo;
+			sourceTree = "<group>";
+		};
+		4930B90F1D011DF600A29516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4930B9101D011DF600A29516 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4930B95F1D01205600A29516 /* TGMediaAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4930BA391D01632000A29516 /* Info.plist */,
+				4930BA3A1D01632000A29516 /* TGMediaAssets.h */,
+			);
+			path = TGMediaAssets;
+			sourceTree = "<group>";
+		};
+		4930BA041D0162F700A29516 /* TGMediaAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4930BA061D0162F700A29516 /* TGImageUtils.h */,
+				4930BA071D0162F700A29516 /* TGImageUtils.mm */,
+				4930BA081D0162F700A29516 /* TGMediaAsset.h */,
+				4930BA091D0162F700A29516 /* TGMediaAsset.m */,
+				4930BA0A1D0162F700A29516 /* TGMediaAssetFetchResult.h */,
+				4930BA0B1D0162F700A29516 /* TGMediaAssetFetchResult.m */,
+				4930BA0C1D0162F700A29516 /* TGMediaAssetFetchResultChange.h */,
+				4930BA0D1D0162F700A29516 /* TGMediaAssetFetchResultChange.m */,
+				4930BA0E1D0162F700A29516 /* TGMediaAssetGroup.h */,
+				4930BA0F1D0162F700A29516 /* TGMediaAssetGroup.m */,
+				4930BA101D0162F700A29516 /* TGMediaAssetImageSignals.h */,
+				4930BA111D0162F700A29516 /* TGMediaAssetImageSignals.m */,
+				4930BA121D0162F700A29516 /* TGMediaAssetLegacyImageSignals.h */,
+				4930BA131D0162F700A29516 /* TGMediaAssetLegacyImageSignals.m */,
+				4930BA141D0162F700A29516 /* TGMediaAssetModernImageSignals.h */,
+				4930BA151D0162F700A29516 /* TGMediaAssetModernImageSignals.m */,
+				4930BA161D0162F700A29516 /* TGMediaAssets.h */,
+				4930BA171D0162F700A29516 /* TGMediaAssetsCommon.h */,
+				4930BA181D0162F700A29516 /* TGMediaAssetsLegacyLibrary.h */,
+				4930BA191D0162F700A29516 /* TGMediaAssetsLegacyLibrary.m */,
+				4930BA1A1D0162F700A29516 /* TGMediaAssetsLibrary.h */,
+				4930BA1B1D0162F700A29516 /* TGMediaAssetsLibrary.m */,
+				4930BA1C1D0162F700A29516 /* TGMediaAssetsModernLibrary.h */,
+				4930BA1D1D0162F700A29516 /* TGMediaAssetsModernLibrary.m */,
+				4930BA1E1D0162F700A29516 /* TGMediaSelectionContext.h */,
+				4930BA1F1D0162F700A29516 /* TGMediaSelectionContext.m */,
+				4930BA201D0162F700A29516 /* TGObserverProxy.h */,
+				4930BA211D0162F700A29516 /* TGObserverProxy.m */,
+				4930BA221D0162F700A29516 /* TGPhotoEditorUtils.h */,
+				4930BA231D0162F700A29516 /* TGPhotoEditorUtils.m */,
+				4930BA241D0162F700A29516 /* TGTimer.h */,
+				4930BA251D0162F700A29516 /* TGTimer.m */,
+				4930BA261D0162F700A29516 /* UIImage+TG.h */,
+				4930BA271D0162F700A29516 /* UIImage+TG.m */,
+			);
+			path = TGMediaAssets;
+			sourceTree = SOURCE_ROOT;
+		};
+		D2D5CDB6B2A12285ABBADC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A8B555D4E25862CEED0481 /* libPods-TGMediaAssetsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBFC3ED9466D7FD6E1C04A4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8E946BAEF1B7C87D5888525 /* Pods-TGMediaAssetsDemo.debug.xcconfig */,
+				44135693DCABA8CA6F846056 /* Pods-TGMediaAssetsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4930B95B1D01205600A29516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930BA3C1D01632000A29516 /* TGMediaAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4930B90B1D011DF600A29516 /* TGMediaAssetsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4930B9231D011DF600A29516 /* Build configuration list for PBXNativeTarget "TGMediaAssetsDemo" */;
+			buildPhases = (
+				13586F7064D88D40AAAD62B1 /* Check Pods Manifest.lock */,
+				4930B9081D011DF600A29516 /* Sources */,
+				4930B9091D011DF600A29516 /* Frameworks */,
+				4930B90A1D011DF600A29516 /* Resources */,
+				F41F40DF689C16C607AF773A /* Embed Pods Frameworks */,
+				6B2517FFF56571C893372C29 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGMediaAssetsDemo;
+			productName = TGMediaAssetsDemo;
+			productReference = 4930B90C1D011DF600A29516 /* TGMediaAssetsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4930B95D1D01205600A29516 /* TGMediaAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4930B9631D01205600A29516 /* Build configuration list for PBXNativeTarget "TGMediaAssets" */;
+			buildPhases = (
+				4930B9591D01205600A29516 /* Sources */,
+				4930B95A1D01205600A29516 /* Frameworks */,
+				4930B95B1D01205600A29516 /* Headers */,
+				4930B95C1D01205600A29516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGMediaAssets;
+			productName = TGMediaAssets;
+			productReference = 4930B95E1D01205600A29516 /* TGMediaAssets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4930B9041D011DF600A29516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hirain;
+				TargetAttributes = {
+					4930B90B1D011DF600A29516 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4930B95D1D01205600A29516 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4930B9071D011DF600A29516 /* Build configuration list for PBXProject "TGMediaAssetsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4930B9031D011DF600A29516;
+			productRefGroup = 4930B90D1D011DF600A29516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4930B90B1D011DF600A29516 /* TGMediaAssetsDemo */,
+				4930B95D1D01205600A29516 /* TGMediaAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4930B90A1D011DF600A29516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930B91F1D011DF600A29516 /* LaunchScreen.storyboard in Resources */,
+				4930B91C1D011DF600A29516 /* Assets.xcassets in Resources */,
+				4930B91A1D011DF600A29516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930B95C1D01205600A29516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930BA3B1D01632000A29516 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13586F7064D88D40AAAD62B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2517FFF56571C893372C29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGMediaAssetsDemo/Pods-TGMediaAssetsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41F40DF689C16C607AF773A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGMediaAssetsDemo/Pods-TGMediaAssetsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4930B9081D011DF600A29516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930BA2B1D0162F700A29516 /* TGMediaAssetFetchResult.m in Sources */,
+				4930BA351D0162F700A29516 /* TGObserverProxy.m in Sources */,
+				4930B9171D011DF600A29516 /* ViewController.m in Sources */,
+				4930B9141D011DF600A29516 /* AppDelegate.m in Sources */,
+				4930BA371D0162F700A29516 /* TGTimer.m in Sources */,
+				4930BA311D0162F700A29516 /* TGMediaAssetsLegacyLibrary.m in Sources */,
+				4930BA291D0162F700A29516 /* TGImageUtils.mm in Sources */,
+				4930BA381D0162F700A29516 /* UIImage+TG.m in Sources */,
+				4930B9111D011DF600A29516 /* main.m in Sources */,
+				4930BA2A1D0162F700A29516 /* TGMediaAsset.m in Sources */,
+				4930BA2F1D0162F700A29516 /* TGMediaAssetLegacyImageSignals.m in Sources */,
+				4930BA2D1D0162F700A29516 /* TGMediaAssetGroup.m in Sources */,
+				4930BA361D0162F700A29516 /* TGPhotoEditorUtils.m in Sources */,
+				4930BA331D0162F700A29516 /* TGMediaAssetsModernLibrary.m in Sources */,
+				4930BA301D0162F700A29516 /* TGMediaAssetModernImageSignals.m in Sources */,
+				4930BA2E1D0162F700A29516 /* TGMediaAssetImageSignals.m in Sources */,
+				4930BA321D0162F700A29516 /* TGMediaAssetsLibrary.m in Sources */,
+				4930BA2C1D0162F700A29516 /* TGMediaAssetFetchResultChange.m in Sources */,
+				4930BA341D0162F700A29516 /* TGMediaSelectionContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930B9591D01205600A29516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4930B9181D011DF600A29516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4930B9191D011DF600A29516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4930B91D1D011DF600A29516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4930B91E1D011DF600A29516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4930B9211D011DF600A29516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4930B9221D011DF600A29516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4930B9241D011DF600A29516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E946BAEF1B7C87D5888525 /* Pods-TGMediaAssetsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGMediaAssetsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.TGMediaAssetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4930B9251D011DF600A29516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44135693DCABA8CA6F846056 /* Pods-TGMediaAssetsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGMediaAssetsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.TGMediaAssetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4930B9641D01205600A29516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TGMediaAssets/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.TGMediaAssets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4930B9651D01205600A29516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TGMediaAssets/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.TGMediaAssets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4930B9071D011DF600A29516 /* Build configuration list for PBXProject "TGMediaAssetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4930B9211D011DF600A29516 /* Debug */,
+				4930B9221D011DF600A29516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4930B9231D011DF600A29516 /* Build configuration list for PBXNativeTarget "TGMediaAssetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4930B9241D011DF600A29516 /* Debug */,
+				4930B9251D011DF600A29516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4930B9631D01205600A29516 /* Build configuration list for PBXNativeTarget "TGMediaAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4930B9641D01205600A29516 /* Debug */,
+				4930B9651D01205600A29516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4930B9041D011DF600A29516 /* Project object */;
+}

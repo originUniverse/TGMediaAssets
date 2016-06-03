@@ -1,0 +1,10 @@
+PODS:
+  - SSignalKit (0.0.2)
+
+DEPENDENCIES:
+  - SSignalKit (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  SSignalKit: d65a4f89cdf037c787d630c7d6d6359b80f290f4
+
+COCOAPODS: 0.39.0
