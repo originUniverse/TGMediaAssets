@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '7.0'
   spec.dependency "SSignalKit", "~> 0.0.2"
   spec.ios.frameworks = ['UIKit', 'Foundation'] 
+  spec.libraries = 'c++'
 end
