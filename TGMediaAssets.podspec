@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGMediaAssets"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.authors      = { "Herui" => "heruicross@gmail.com" }
   spec.homepage     = "https://github.com/red3/TGMediaAssets"
   spec.summary      = "TGMediaAssets, idea from telegram"
